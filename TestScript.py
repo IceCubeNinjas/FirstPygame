@@ -1,6 +1,5 @@
 import pygame as py
 import sys
-import time
 
 # initialize the pygame modules.
 py.init()
@@ -52,4 +51,4 @@ while True:
     py.display.flip()
 
     # this function just slows the while loop down to about 30fps.
-    time.sleep(1/30)
+    py.time.wait(1000/30)
