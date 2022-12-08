@@ -51,4 +51,4 @@ while True:
     py.display.flip()
 
     # this function just slows the while loop down to about 30fps.
-    py.time.wait(1000/30)
+    py.time.wait(1)
