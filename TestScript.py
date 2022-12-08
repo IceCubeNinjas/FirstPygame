@@ -18,7 +18,7 @@ Display = py.display.set_mode(size)
 
 
 # define the variable ball as a surface with the same pixels as said image.
-ball = py.image.load("blueray.png")
+ball = py.image.load("Assets/blueray.png")
 # define the variable ballobjc as a rect object(a rectangle) of surface "ball".
 ballobjc = ball.get_rect()
 
